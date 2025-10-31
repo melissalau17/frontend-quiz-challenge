@@ -1,4 +1,4 @@
-export type GameState = "start" | "playing" | "game-over";
+export type GameState = "login" | "start" | "playing" | "resume-prompt" | "game-over";
 
 export interface Question {
     category: string;
